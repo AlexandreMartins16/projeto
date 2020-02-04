@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "resourceGroup": {
+            "value": "Horeca"
+        },
+        "azureFirewallName": {
+            "value": "os-d-fw-001"
+        },
+        "vnetName": {
+            "value": ""
+        },
+        "vnetAddressSpace": {
+            "value": ""
+        },
+        "subnetAddressSpace": {
+            "value": ""
+        },
+        "subnetId": {
+            "value": "/subscriptions/a9a55b06-88e1-47e9-9dbe-573fac6ef2fd/resourceGroups/Horeca/providers/Microsoft.Network/virtualNetworks/phc_p_vnet_002/subnets/AzureFirewallSubnet"
+        },
+        "zones": {
+            "value": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "publicIpAddressName": {
+            "value": "ighfirewall"
+        },
+        "publicIpZones": {
+            "value": []
+        }
+    }
+}
