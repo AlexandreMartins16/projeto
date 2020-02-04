@@ -1,0 +1,133 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "administratorLogin": {
+            "value": "sql-admin"
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AI"
+        },
+        "databaseName": {
+            "value": "outsystems_dcatalog"
+        },
+        "tier": {
+            "value": "GeneralPurpose"
+        },
+        "skuName": {
+            "value": "GP_Gen5_4"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "maxSizeBytes": {
+            "value": 85899345920
+        },
+        "sampleName": {
+            "value": ""
+        },
+        "serverName": {
+            "value": "os-d-sql-002"
+        },
+        "licenseType": {
+            "value": "LicenseIncluded"
+        },
+        "readScaleOut": {
+            "value": "Disabled"
+        },
+        "zoneRedundant": {
+            "value": false
+        },
+        "numberOfReplicas": {
+            "value": 0
+        },
+        "enableADS": {
+            "value": true
+        },
+        "allowAzureIps": {
+            "value": false
+        },
+        "allowClientIp": {
+            "value": false
+        },
+        "clientIpValue": {
+            "value": "148.69.169.113"
+        },
+        "databaseTags": {
+            "value": {
+                "customer": "IG&H"
+            }
+        },
+        "serverTags": {
+            "value": {
+                "customer": "IG&H"
+            }
+        },
+        "enableVA": {
+            "value": true
+        },
+        "enablePrivateEndpoint": {
+            "value": true
+        },
+        "privateEndpointNestedTemplateId": {
+            "value": "pe-20f4b800-ba03-48cc-ac1c-660bcbedc00f"
+        },
+        "privateEndpointSubscriptionId": {
+            "value": "a9a55b06-88e1-47e9-9dbe-573fac6ef2fd"
+        },
+        "privateEndpointResourceGroup": {
+            "value": "Horeca2"
+        },
+        "privateEndpointName": {
+            "value": "sql_endpoint"
+        },
+        "privateEndpointLocation": {
+            "value": "westeurope"
+        },
+        "privateEndpointSubnetId": {
+            "value": "/subscriptions/a9a55b06-88e1-47e9-9dbe-573fac6ef2fd/resourceGroups/Horeca/providers/Microsoft.Network/virtualNetworks/phc_p_vnet_002/subnets/os-d-snet-004"
+        },
+        "privateLinkServiceName": {
+            "value": "sql_endpoint"
+        },
+        "privateLinkServiceServiceId": {
+            "value": "/subscriptions/a9a55b06-88e1-47e9-9dbe-573fac6ef2fd/resourceGroups/Horeca2/providers/Microsoft.Sql/servers/os-d-sql-002"
+        },
+        "privateEndpointVnetSubscriptionId": {
+            "value": "a9a55b06-88e1-47e9-9dbe-573fac6ef2fd"
+        },
+        "privateEndpointVnetResourceGroup": {
+            "value": "Horeca"
+        },
+        "privateEndpointVnetName": {
+            "value": "phc_p_vnet_002"
+        },
+        "privateEndpointSubnetName": {
+            "value": "os-d-snet-004"
+        },
+        "enablePrivateDnsZone": {
+            "value": true
+        },
+        "privateEndpointDnsRecordUniqueId": {
+            "value": "20f4b800-ba03-48cc-ac1c-660bcbedc012"
+        },
+        "privateEndpointTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.0.20200114.33-/DeploymentTemplates/PrivateEndpoint.json"
+        },
+        "privateDnsForPrivateEndpointTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.0.20200114.33-/DeploymentTemplates/PrivateDnsForPrivateEndpoint.json"
+        },
+        "privateDnsForPrivateEndpointNicTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.0.20200114.33-/DeploymentTemplates/PrivateDnsForPrivateEndpointNic.json"
+        },
+        "privateDnsForPrivateEndpointIpConfigTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.0.20200114.33-/DeploymentTemplates/PrivateDnsForPrivateEndpointIpConfig.json"
+        },
+        "clientIpRuleName": {
+            "value": "ClientIp-2020-2-4_11-56-5"
+        }
+    }
+}

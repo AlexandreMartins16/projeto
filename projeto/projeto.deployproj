@@ -27,6 +27,8 @@
     <Content Include="azuredeploy.json" />
     <None Include="bastion 2.0\parameters.json" />
     <None Include="bastion 2.0\template.json" />
+    <None Include="bd 2.0\parameters.json" />
+    <None Include="bd 2.0\template.json" />
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
